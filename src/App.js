@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload by Navneet and DevOps course team
+          Edit <code>src/App.js</code> and save to reload by Navneet and DevOps course team : second attempt
         </p>
         <a
           className="App-link"

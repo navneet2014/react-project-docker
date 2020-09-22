@@ -11,8 +11,8 @@ script:
 deploy:
     provider: elasticbeanstalk
     region: ap-south-1 # Specify your region
-    app: "react-project-docker" # Copy it from Elastic Beanstalk dashboard
-    env: "ReactProjectDocker-env" # Copy it from Elastic Beanstalk dashboard
+    app: "react-project-docker-test" # Copy it from Elastic Beanstalk dashboard
+    env: "ReactProjectDockerTest-env" # Copy it from Elastic Beanstalk dashboard
     bucket_name: "elasticbeanstalk-ap-south-1-825746486758"
     bucket_path: "docker"
     access_key_id: $AWS_ACCESS_KEY
